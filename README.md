@@ -1,0 +1,1 @@
+registerpage for summer camp
