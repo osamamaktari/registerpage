@@ -1,0 +1,86 @@
+body {
+    background-color: #f9f9f6;
+    font-family: 'Georgia', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.form-container {
+    background-color: #fff;
+    border: 1px solid #d1e1d1;
+    border-radius: 12px;
+    padding: 30px 40px;
+    width: 400px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+    text-align: center;
+    color: #224122;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin: 12px 0 6px;
+    color: #224122;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #c8dcc8;
+    border-radius: 6px;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.age-gender {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.checkbox-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px 10px;
+    margin-bottom: 10px;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #2d5d2d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    min-width: 45%;
+}
+
+button:hover {
+    background-color: #244d24;
+}
